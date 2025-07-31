@@ -39,3 +39,7 @@ Limpa todos os dados, incluindo a lista de amigos e os sorteados, reiniciando o 
 - HTML5
 - CSS3
 - JavaScript (Vanilla)
+
+## Como executar
+```bash
+git clone git@github.com:unrealplastic/challenge-amigo-secreto_pt.git
