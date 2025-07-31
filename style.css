@@ -88,7 +88,12 @@ body {
 }
 
 .button-container {
-    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+    width: 500px;
     justify-content: center;
 }
 
@@ -125,6 +130,12 @@ button {
     background-color: #a1a1a1;
 }
 
+#retry-icon{
+    width: 34px;
+    height: 35px;
+    margin-right: 10px;
+}
+
 /* Listas */
 ul {
     list-style-type: none;
@@ -146,11 +157,12 @@ ul {
 .button-draw {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 70%;
     padding: 10px 40px;
     color: var(--color-white);
     background-color: var(--color-button);
     font-size: 16px;
+    margin: 5px;
 }
 
 .button-draw img {
